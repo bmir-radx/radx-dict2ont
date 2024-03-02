@@ -17,9 +17,8 @@ import java.util.Optional;
 import java.util.stream.Stream;
 
 /**
- * Matthew Horridge
- * Stanford Center for Biomedical Informatics Research
- * 2023-11-17
+ * A class that represents a cache for ontology information in CSV format.  The cache can be used
+ * to return synonyms, classes and parents for ontology terms.
  */
 public class OntCsvCache {
 
@@ -32,16 +31,34 @@ public class OntCsvCache {
 
     private final Map<String, List<String>> id2Parents = new HashMap<>();
 
+    /**
+     * Retrieves the synonyms for a given OBO identifier.
+     *
+     * @param oboId The OBO identifier for which synonyms are to be retrieved.
+     * @return A list of synonyms for the specified OBO identifier. If no synonyms are found, an empty list is returned.
+     */
     public List<String> getSynonyms(String oboId) {
         return Optional.ofNullable(id2Synonyms.get(oboId)).orElse(List.of());
     }
 
+    /**
+     * Retrieves the definition(s) associated with a given OBO identifier.
+     *
+     * @param oboId The OBO identifier for which definitions are to be retrieved.
+     * @return A list of definitions for the specified OBO identifier. If no definitions are found, an empty list is returned.
+     */
     public List<String> getDefinition(String oboId) {
         return Optional.ofNullable(id2Definitions.get(oboId)).orElse(List.of());
     }
 
-    public List<String> getParents(String id) {
-        return Optional.ofNullable(id2Parents.get(id)).orElse(List.of());
+    /**
+     * Retrieves the parent classes for a given OBO identifier.
+     *
+     * @param oboId The OBO identifier for which parent classes are to be retrieved.
+     * @return A list of parent classes for the specified OBO identifier. If no parent classes are found, an empty list is returned.
+     */
+    public List<String> getParents(String oboId) {
+        return Optional.ofNullable(id2Parents.get(oboId)).orElse(List.of());
     }
 
     public void load(InputStream inputStream) throws IOException {
