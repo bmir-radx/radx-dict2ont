@@ -1,0 +1,46 @@
+Ontology(
+
+# Class: <https://bmir-radx.github.io/CancerDataElement> (<https://bmir-radx.github.io/CancerDataElement>)
+
+EquivalentClasses(<https://bmir-radx.github.io/CancerDataElement> ObjectIntersectionOf(<https://bmir-radx.github.io/DataElement> ObjectSomeValuesFrom(<https://bmir-radx.github.io/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0004992>)))
+SubClassOf(<https://bmir-radx.github.io/CancerDataElement> <https://bmir-radx.github.io/DataElement>)
+
+# Class: <https://bmir-radx.github.io/DiabetesDataElement> (<https://bmir-radx.github.io/DiabetesDataElement>)
+
+EquivalentClasses(<https://bmir-radx.github.io/DiabetesDataElement> ObjectIntersectionOf(<https://bmir-radx.github.io/DataElement> ObjectSomeValuesFrom(<https://bmir-radx.github.io/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005015>)))
+SubClassOf(<https://bmir-radx.github.io/DiabetesDataElement> <https://bmir-radx.github.io/DataElement>)
+
+# Class: <https://bmir-radx.github.io/Disease_Data_Element> (<https://bmir-radx.github.io/Disease_Data_Element>)
+
+EquivalentClasses(<https://bmir-radx.github.io/Disease_Data_Element> ObjectIntersectionOf(<https://bmir-radx.github.io/DataElement> ObjectSomeValuesFrom(<https://bmir-radx.github.io/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0000001>)))
+SubClassOf(<https://bmir-radx.github.io/Disease_Data_Element> <https://bmir-radx.github.io/DataElement>)
+
+# Class: <https://bmir-radx.github.io/RespiratorySymptomDataElement> (<https://bmir-radx.github.io/RespiratorySymptomDataElement>)
+
+EquivalentClasses(<https://bmir-radx.github.io/RespiratorySymptomDataElement> ObjectIntersectionOf(<https://bmir-radx.github.io/DataElement> ObjectSomeValuesFrom(<https://bmir-radx.github.io/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000514>)))
+SubClassOf(<https://bmir-radx.github.io/RespiratorySymptomDataElement> <https://bmir-radx.github.io/DataElement>)
+
+# Class: <https://bmir-radx.github.io/SymptomDataElement> (<https://bmir-radx.github.io/SymptomDataElement>)
+
+EquivalentClasses(<https://bmir-radx.github.io/SymptomDataElement> ObjectIntersectionOf(<https://bmir-radx.github.io/DataElement> ObjectSomeValuesFrom(<https://bmir-radx.github.io/isAssociatedWith> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4876>)))
+EquivalentClasses(<https://bmir-radx.github.io/SymptomDataElement> ObjectIntersectionOf(<https://bmir-radx.github.io/DataElement> ObjectSomeValuesFrom(<https://bmir-radx.github.io/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000462>)))
+SubClassOf(<https://bmir-radx.github.io/SymptomDataElement> <https://bmir-radx.github.io/DataElement>)
+
+
+# Class: <https://bmir-radx.github.io/MentalHealthDataElement> (<https://bmir-radx.github.io/MentalHealthDataElement>)
+
+EquivalentClasses(<https://bmir-radx.github.io/MentalHealthDataElement> ObjectIntersectionOf(<https://bmir-radx.github.io/DataElement> ObjectSomeValuesFrom(<https://bmir-radx.github.io/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0002025>)))
+SubClassOf(<https://bmir-radx.github.io/MentalHealthDataElement> <https://bmir-radx.github.io/DataElement>)
+
+# Class: <https://bmir-radx.github.io/CardioVascularDisorderDataElement> (<https://bmir-radx.github.io/CardioVascularDisorderDataElement>)
+
+EquivalentClasses(<https://bmir-radx.github.io/CardioVascularDisorderDataElement> ObjectIntersectionOf(<https://bmir-radx.github.io/DataElement> ObjectSomeValuesFrom(<https://bmir-radx.github.io/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0004995>)))
+SubClassOf(<https://bmir-radx.github.io/CardioVascularDisorderDataElement> <https://bmir-radx.github.io/DataElement>)
+
+# Class: <https://bmir-radx.github.io/PersonalBehaviorDataElement> (<https://bmir-radx.github.io/PersonalBehavior>)
+
+EquivalentClasses(<https://bmir-radx.github.io/PersonalBehaviorDataElement> ObjectIntersectionOf(<https://bmir-radx.github.io/DataElement> ObjectSomeValuesFrom(<https://bmir-radx.github.io/isAssociatedWith> <http://purl.obolibrary.org/obo/NBO_0000313>)))
+SubClassOf(<https://bmir-radx.github.io/CardioVascularDisorderDataElement> <https://bmir-radx.github.io/DataElement>)
+
+
+)
