@@ -220,6 +220,7 @@ public class CreateAxioms {
             axioms.add(dataFactory.getOWLAnnotationAssertionAxiom(dataFactory.getOWLAnnotationProperty(IRI.create(PREFIX + "isInSection")),
                                                                   cls.getIRI(),
                                                                   sectionIri));
+            axioms.add(dataFactory.getOWLAnnotationAssertionAxiom(dataFactory.getRDFSSeeAlso(), sectionIri, cls.getIRI()));
         }
         else {
             axioms.add(dataFactory.getOWLSubClassOfAxiom(cls, dataElementRootCls));

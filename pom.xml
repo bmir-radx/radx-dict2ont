@@ -24,7 +24,7 @@
         <dependency>
             <groupId>edu.stanford.bmir.radx</groupId>
             <artifactId>radx-data-dictionary-validator-lib</artifactId>
-            <version>1.3.0</version>
+            <version>1.3.4</version>
         </dependency>
         <dependency>
             <groupId>net.sourceforge.owlapi</groupId>
