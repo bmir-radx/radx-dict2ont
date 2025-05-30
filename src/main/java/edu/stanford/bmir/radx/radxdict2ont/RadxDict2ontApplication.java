@@ -58,6 +58,10 @@ public class RadxDict2ontApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        if(args.length != 1) {
+            System.err.println("Expected a single program argument that is a URL pointing to a copy of the RADx Global Code Book");
+            return;
+        }
         var filePath = new URL(args[0]);
         var createAxioms = context.getBean(CreateAxioms.class);
         var parser = context.getBean(RADxDataDictionaryParser.class);
